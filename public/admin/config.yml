@@ -21,7 +21,8 @@ collections:
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
-- label: "About"
+    files:
+      - label: "About"
         name: "about"
         file: "content/about.md"
         fields:
