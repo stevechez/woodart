@@ -20,8 +20,7 @@ collections:
             widget: list
             fields:
               - { label: "Name", name: "name", widget: "string" }
-              - { label: "Description", name: "description", widget: "text" }
-    files:
+              - { label: "Description", name: "description", widget: "text" },
       - label: "About"
         name: "about"
         file: "content/about.md"
